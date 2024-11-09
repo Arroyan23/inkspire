@@ -1,5 +1,6 @@
 // halaman untuk project
 import agentOne from "../img/1pro.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const ProjectView = () => {
   return (
@@ -11,14 +12,31 @@ export const ProjectView = () => {
             alt=""
             className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50 "
           />
-          <div className="absolute inset-0 flex items-center bg-purple-800 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300 object-cover">
+          <div className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300 object-cover">
             <div className="max-w-xs">
-              <h1 className="text-3xl">Landing Page with Smooth Animation</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                pariatur saepe iusto quis, optio hic dolores repellendus quod
-                molestias impedit.
+              <h1 className="text-3xl font-semibold">
+                Landing Page with Smooth Animation
+              </h1>
+              <p className="mt-5">
+                Experience a visually appealing landing page designed with
+                smooth animations to enhance user engagement. This page is
+                optimized for performance, ensuring animations are fluid and do
+                not compromise loading speed. Perfect for showcasing products,
+                services, or any content with a modern and dynamic touch.
               </p>
+              <div className="flex items-center space-x-2 mt-5">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-github"
+                  className="text-4xl"
+                />
+                <div className="flex items-center space-x-2">
+                  <p className="underline">Visit Github</p>
+                  <FontAwesomeIcon
+                    icon="fa-solid fa-arrow-right"
+                    className="animate-bounce"
+                  />
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -28,8 +46,33 @@ export const ProjectView = () => {
             alt=""
             className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50 "
           />
-          <div className="absolute inset-0 flex items-center bg-purple-800 justify-center opacity-0 group-hover:opacity-80 transition-opacity duration-300">
-            <p className="text-white text-2xl">Tulisan yang Muncul</p>
+          <div className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+            <div className="max-w-xs">
+              <h1 className="text-3xl font-semibold">
+                E Commerce With Cart and Authentication
+              </h1>
+              <p className="mt-5">
+                A comprehensive e-commerce platform that enables users to browse
+                products, add them to their cart, and securely complete their
+                purchase. With built-in user authentication, customers can
+                create accounts, log in, and track their order history, ensuring
+                a personalized and secure shopping experience
+              </p>
+              {/* untuk bagian button */}
+              <div className="flex items-center space-x-2 mt-5">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-github"
+                  className="text-4xl"
+                />
+                <div className="flex items-center space-x-2">
+                  <p className="underline">Visit Github</p>
+                  <FontAwesomeIcon
+                    icon="fa-solid fa-arrow-right"
+                    className="animate-bounce"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="relative mt-5 group cursor-pointer">
@@ -38,8 +81,33 @@ export const ProjectView = () => {
             alt=""
             className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50 "
           />
-          <div className="absolute inset-0 flex items-center bg-purple-800 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300">
-            <p className="text-white text-2xl">Tulisan yang Muncul</p>
+          <div className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300">
+            <div className="max-w-xs">
+              <h1 className="text-4xl font-semibold">
+                CRUD With Mongodb, Express, ReactJS, NodeJs
+              </h1>
+              <p className="mt-5">
+                A full-stack web application implementing CRUD (Create, Read,
+                Update, Delete) operations using the MERN stack. This project
+                demonstrates efficient data handling with MongoDB, robust
+                server-side logic with Express and NodeJS, and an interactive
+                user interface powered by ReactJS. Ideal for building scalable
+                and dynamic web applications.
+              </p>
+              <div className="flex items-center space-x-2 mt-5">
+                <FontAwesomeIcon
+                  icon="fa-brands fa-github"
+                  className="text-4xl"
+                />
+                <div className="flex items-center space-x-2">
+                  <p className="underline">Visit Github</p>
+                  <FontAwesomeIcon
+                    icon="fa-solid fa-arrow-right"
+                    className="animate-bounce"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

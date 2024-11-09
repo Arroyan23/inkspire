@@ -1,0 +1,14 @@
+/* halaman untuk setting hamburger menu */
+
+/* Pastikan menu fullscreen menutupi seluruh layar */
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

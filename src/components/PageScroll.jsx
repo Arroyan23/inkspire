@@ -58,23 +58,26 @@ const PageScroll = () => {
           style={{ translateX: paragraphOneValue }}
           className="mx-auto text-xl font-thin text-shade-100"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-          molestias molestiae impedit nulla vitae! Corporis pariatur similique
-          qui. Ea et ab eligendi hic unde dicta nemo sit provident molestias
-          ullam magnam recusandae sunt illo adipisci fugit, quia dignissimos?
-          Voluptatibus et voluptates atque perspiciatis qui expedita tempore
-          eius ad fugiat veritatis.
+          We are a creative team dedicated to providing innovative and
+          accessible digital solutions. Since our inception, we have focused on
+          helping businesses from various sectors leverage the latest technology
+          to improve efficiency and enhance user experience. We believe that
+          technology is not just about code and design, but about making a
+          positive, tangible impact in everyday life. Our team brings diverse
+          expertise in software development, UI/UX design, and tech consulting,
+          ensuring that we are equipped to meet the needs of any project.
         </motion.p>
         <motion.p
           style={{ translateX: paragraphTwoValue }}
           className="mx-auto text-xl font-thin text-shade-100"
         >
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam
-          molestias molestiae impedit nulla vitae! Corporis pariatur similique
-          qui. Ea et ab eligendi hic unde dicta nemo sit provident molestias
-          ullam magnam recusandae sunt illo adipisci fugit, quia dignissimos?
-          Voluptatibus et voluptates atque perspiciatis qui expedita tempore
-          eius ad fugiat veritatis.
+          We are committed to delivering products and services that are not only
+          functional but also intuitive and user-friendly. What sets us apart is
+          our client-centered approach, always ensuring that the solutions we
+          provide are tailored to align with their goals. We believe that every
+          business, big or small, deserves the best technology solutions to help
+          them succeed. That’s why we’re ready to partner with you to bring your
+          digital vision to life in the most efficient and cost-effective way.
         </motion.p>
       </section>
     </main>

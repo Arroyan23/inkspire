@@ -10,10 +10,13 @@ export const ImageCard = () => {
             We Support Fullstack Development
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis, autem laudantium expedita ea facere aspernatur
-            voluptate at voluptatem nesciunt iste ut molestiae amet eius sunt
-            libero sint? Itaque, consequatur nisi?
+            Our platform is dedicated to supporting fullstack development,
+            covering both frontend and backend technologies. From building
+            dynamic user interfaces with modern frameworks to implementing
+            robust server-side logic and database management, we provide
+            comprehensive resources and tools for developers to create complete
+            and scalable web applications. Empowering developers to bring their
+            ideas to life, all in one place.
           </p>
         </div>
         <div className="">
