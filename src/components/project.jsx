@@ -1,17 +1,22 @@
 // halaman untuk project
 import agentOne from "../img/1pro.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import woocommerce from "../img/ecommerce.png";
 
 export const ProjectView = () => {
   return (
     <>
       <div className="flex ">
-        <div className="relative mt-5 group cursor-pointer">
+        <div
+          className="relative mt-5 group cursor-pointer"
+          onClick={() => window.open("https://fipoxygen.site/")}
+        >
           <img
             src={agentOne}
             alt=""
             className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50 "
           />
+          <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300 object-cover">
             <div className="max-w-xs">
               <h1 className="text-3xl font-semibold">
@@ -25,12 +30,8 @@ export const ProjectView = () => {
                 services, or any content with a modern and dynamic touch.
               </p>
               <div className="flex items-center space-x-2 mt-5">
-                <FontAwesomeIcon
-                  icon="fa-brands fa-github"
-                  className="text-4xl"
-                />
                 <div className="flex items-center space-x-2">
-                  <p className="underline">Visit Github</p>
+                  <p className="underline">Visit Website</p>
                   <FontAwesomeIcon
                     icon="fa-solid fa-arrow-right"
                     className="animate-bounce"
@@ -42,11 +43,12 @@ export const ProjectView = () => {
         </div>
         <div className="relative mt-5 group cursor-pointer">
           <img
-            src="https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src={woocommerce}
             alt=""
-            className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50 "
+            className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50"
           />
-          <div className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80 transition-opacity duration-300">
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="absolute inset-0 flex items-center hover:bg-purple-950 justify-center opacity-0 group-hover:opacity-80 transition-opacity duration-300">
             <div className="max-w-xs">
               <h1 className="text-3xl font-semibold">
                 E Commerce With Cart and Authentication
@@ -81,7 +83,13 @@ export const ProjectView = () => {
             alt=""
             className="w-[40rem] h-[30rem] transition-opacity duration-300 group-hover:opacity-50 "
           />
-          <div className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300">
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div
+            className="absolute inset-0 flex items-center bg-purple-950 justify-center opacity-0 group-hover:opacity-80  transition-opacity duration-300"
+            onClick={() =>
+              window.open("https://github.com/Arroyan23/Fipoxygen-Update")
+            }
+          >
             <div className="max-w-xs">
               <h1 className="text-4xl font-semibold">
                 CRUD With Mongodb, Express, ReactJS, NodeJs

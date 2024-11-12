@@ -48,69 +48,74 @@ export const HomePage = () => {
         <div className="absolute -top-36 left-1/3 w-80 h-80 bg-purple-800 rounded-full blur-3xl opacity-50"></div>
         <div className="absolute -top-36 z-10 left-[58rem] w-80 h-80 bg-purple-600 rounded-full blur-3xl opacity-50"></div>
         <div className="absolute -top-36 z-10 left-[47rem] w-80 h-80 bg-sky-600 rounded-full blur-3xl opacity-50"></div>
-
-        <div className="mt-10 max-w-5xl mx-auto mb-72">
-          <PageScroll />
-        </div>
+        <section id="about">
+          <div className="mt-10 max-w-5xl mx-auto mb-72">
+            <PageScroll />
+          </div>
+        </section>
         {/* halaman untuk kedua element berantem */}
-        <div className="flex justify-between">
-          <div className="flex-1 -mt-32 -mr-24 z-20">
-            <ImageCard />
-          </div>
-          <div className="relative max-w-5xl mt-0 p-10 bg-purple-800 backdrop-blur-xl shadow-lg shadow-slate-900 rounded-bl-xl">
-            <div className="relative z-10 text-center text-white pt-14">
-              <h1 className="text-2xl font-bold mb-5">Our Abilities</h1>
-              <Marquee />
+        <section id="fighting">
+          <div className="flex justify-between">
+            <div className="flex-1 -mt-32 -mr-24 z-20">
+              <ImageCard />
             </div>
-            <img
-              src={cooperativeImg}
-              alt=""
-              className="absolute bottom-0 right-0 h-72 w-72 opacity-70"
-            />
-            <img
-              src={mahoniImage}
-              alt=""
-              className="absolute -top-5 h-72 w-72 left-14 opacity-70"
-            />
+            <div className="relative max-w-5xl mt-0 p-10 bg-purple-800 backdrop-blur-xl shadow-lg shadow-slate-900 rounded-bl-xl">
+              <div className="relative z-10 text-center text-white pt-14">
+                <h1 className="text-2xl font-bold mb-5">Our Abilities</h1>
+                <Marquee />
+              </div>
+              <img
+                src={cooperativeImg}
+                alt=""
+                className="absolute bottom-0 right-0 h-72 w-72 opacity-70"
+              />
+              <img
+                src={mahoniImage}
+                alt=""
+                className="absolute -top-5 h-72 w-72 left-14 opacity-70"
+              />
+            </div>
           </div>
-        </div>
+        </section>
 
         {/* Halaman Layanan */}
-        <div className="max-w-5xl mx-auto mt-72">
-          <h1 className="text-3xl font-bold mb-8 text-center text-purple-500">
-            Our Services
-          </h1>
-          {/* Kartu Layanan */}
-          <div className="flex justify-center space-x-5">
-            <CardServices
-              fontIcon="fa-solid fa-mobile"
-              heading="Responsive Web Design"
-              description="A modern web design approach focused on creating web pages that adapt seamlessly to any device or screen size. This project ensures that content and functionality remain accessible and visually appealing across desktops, tablets, and smartphones. Utilizing flexible layouts, media queries, and scalable assets, it delivers a consistent user experience regardless of the viewing environment."
-            />
-            <CardServices
-              fontIcon="fa-solid fa-user"
-              heading="Authentication User Web App"
-              description="A secure web application featuring comprehensive user authentication. This project incorporates modern authentication methods such as password-based logins, multi-factor authentication (MFA), and OAuth integration for third-party sign-ins. Designed with user privacy and data protection in mind, ensuring a safe and seamless login experience."
-            />
-            <CardServices
-              fontIcon="fa-solid fa-database"
-              heading="Web App with database integration"
-              description="A dynamic web application designed with seamless database integration for efficient data storage and retrieval. This project ensures real-time data synchronization, providing users with a responsive and interactive experience. Ideal for applications that require robust data management and user-centric features."
-            />
+        <section id="services">
+          <div className="max-w-5xl mx-auto mt-72">
+            <h1 className="text-3xl font-bold mb-8 text-center text-purple-500">
+              Our Services
+            </h1>
+            {/* Kartu Layanan */}
+            <div className="flex justify-center space-x-5">
+              <CardServices
+                fontIcon="fa-solid fa-mobile"
+                heading="Responsive Web Design"
+                description="A modern web design approach focused on creating web pages that adapt seamlessly to any device or screen size. This project ensures that content and functionality remain accessible and visually appealing across desktops, tablets, and smartphones. Utilizing flexible layouts, media queries, and scalable assets, it delivers a consistent user experience regardless of the viewing environment."
+              />
+              <CardServices
+                fontIcon="fa-solid fa-user"
+                heading="Authentication User Web App"
+                description="A secure web application featuring comprehensive user authentication. This project incorporates modern authentication methods such as password-based logins, multi-factor authentication (MFA), and OAuth integration for third-party sign-ins. Designed with user privacy and data protection in mind, ensuring a safe and seamless login experience."
+              />
+              <CardServices
+                fontIcon="fa-solid fa-database"
+                heading="Web App with database integration"
+                description="A dynamic web application designed with seamless database integration for efficient data storage and retrieval. This project ensures real-time data synchronization, providing users with a responsive and interactive experience. Ideal for applications that require robust data management and user-centric features."
+              />
+            </div>
           </div>
-        </div>
+        </section>
 
         {/* halaman spesialisasi */}
-        <div className=" mt-60 ">
-          <h1 className="text-3xl font-bold mb-8 text-center text-purple-500">
-            Our Project
-          </h1>
-          <div className="">
-            <ProjectView />
+        <section id="special">
+          <div className=" mt-60 ">
+            <h1 className="text-3xl font-bold mb-8 text-center text-purple-500">
+              Our Project
+            </h1>
+            <div className="">
+              <ProjectView />
+            </div>
           </div>
-        </div>
-
-        {/* halaman team dan kemampuannya */}
+        </section>
 
         <div className="bg-purple-950 ">
           <div className="mx-auto w-full max-w-screen-xl mt-40">

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 import inkSpace from "../img/watsap.png";
 import { motion, useAnimation } from "framer-motion";
+import HamburgerMenu from "../components/hamburger";
 
 export const NavBar = () => {
   const [scrolling, setScrolling] = useState(false);
@@ -56,8 +57,7 @@ export const NavBar = () => {
         </div>
         {/* tengah */}
         <div className="flex space-x-4">
-          <h2>About</h2>
-          <h2>Contact</h2>
+          <HamburgerMenu />
         </div>
       </motion.div>
       <Outlet />
